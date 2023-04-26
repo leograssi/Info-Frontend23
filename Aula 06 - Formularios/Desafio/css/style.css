@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-image:url(../img/fundo.png);
+    width: 100%;
+  }
+  
+  .container{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    left: 40%;
+    top: 15%;
+    border-radius: 20px;
+    
+  }
+  .fl{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+  }
+  .form {
+    
+    align-items: center;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    /*background-color: rgb(237, 235, 235);*/
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-inicial {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+  }
+  
+  .campo-form input {
+    background-color: rgb(238, 239, 240);
+    color: rgb(64, 64, 64);
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .campo-formo input{
+  background-color: rgb(238, 239, 240);
+  color: rgb(64, 64, 64);
+  padding: 10px;
+  width: 310px;
+  border-radius: 20px;
+  border: none;
+  }
+
+  .checkbox{
+    border-radius: 10px;
+    color: white;
+  }
+
+  
+  .botao-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .botao-form button {
+    height: 45px;
+    width: 200px;
+    background-color: rgb(58, 255, 255);
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    transition: 0.3s;
+  }
+  
+  .botao-form button[type="submit"] {
+    font-weight: bold;
+  }
+  
+  .botao-form button:hover {
+    background-color: rgb(98, 98, 250);
+    color: rgb(238, 239, 240);
+  }
+
+  input[type="text"]:disabled {
+    background-color: rgb(252, 252, 252);
+
+  }
+
+  input[type="text"]:disabled::placeholder{
+    color:rgb(2, 255, 255);
+
+  }
+
+  /*input[type="email"]:focus {
+    color: rgb(0, 0, 0);
+  }*/
+
+  input:focus {
+    outline: 1px solid rgb(133, 4, 238);
+  }
+
+  
+  a{
+    color: aqua;
+    text-decoration: none;
+  }
