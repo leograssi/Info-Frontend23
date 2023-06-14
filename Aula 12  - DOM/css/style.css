@@ -5,6 +5,19 @@
   font-size: 18px;
 }
 
+.body-dark{
+  background-color: black;
+  color: white;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -45,6 +58,11 @@
   flex-grow: 1;
 }
 
+.card-botao:hover{
+  background-color: transparent;
+  color: blueviolet;
+}
+
 @media (max-width: 600px) {
   .container {
     background-color: red;
@@ -71,4 +89,6 @@
   .card {
     width: 40%;
   }
+
+  
 }
