@@ -123,7 +123,7 @@ formulario.addEventListener("submit", (event) => {
     }else {
       // inserir os 
       event.preventDefault();
-    } 
+    } g
 
 
     });
